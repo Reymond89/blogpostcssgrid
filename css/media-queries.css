@@ -1,0 +1,22 @@
+@media (max-width: 940px)  {
+    .blog-main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        min-width: 400px;
+    }
+    .blog-post-container .post-container{
+        max-width: 45%;
+    }
+}
+@media (max-width: 649px){
+    .blog-post-container .post-container{
+        max-width: 90%;
+        
+    }
+}
+@media (max-width: 470px){
+    .blog-post-container .post-container{
+        max-width: 90%;
+        
+    }
+}

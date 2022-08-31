@@ -21,7 +21,11 @@ a{
     left: 0;
     right: 0;
 }
-
+.grid-container{
+    max-width: 1200px;
+    margin: auto;
+    /* text-align: center; */
+}
 
 header{
     width: 100%;
@@ -67,7 +71,7 @@ nav .header__profile-right{
   
 }
 nav .header__profile-right a{
-    
+    font-size: 1.5rem;
     color: black;
     border-bottom: 1px solid black;
 }
@@ -155,8 +159,14 @@ nav .header__profile-right a{
     font-size: 1rem;
 }
 /* blogs */
+.post-title{
+    text-align: center;
+    margin-bottom: -23px;
+
+}
+
 .blog-post-container{
-    
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -171,10 +181,12 @@ nav .header__profile-right a{
 
 .blog-post-container .post-container{
     display: inline-block;
-    max-width: 31%;
-    padding-left: 10px;
+    max-width: 30%;
     margin-bottom: 50px;
-    min-width: 320px;
+    min-width: 270px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: initial;
 }
 .blog-post-container .post-container p{
     margin-bottom: 35px;
@@ -195,4 +207,92 @@ footer{
 footer p{
     color: white;
     padding: 15px;
+}
+/* blog */
+.blogpost-img-container{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.blogpost-img-container img{
+    width: 100%;
+}
+.blogpost__main-container{
+    padding: 1em;
+}
+.blogpost__main-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost__main-container article h1{
+    font-size: 2rem;
+}
+/*blog post */
+.contact-main-container{
+   width: 100%;
+   min-height: 250px;
+   background-color: #e6e9ed;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.contact-main-container div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div  a{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right{
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img{
+    width: 100px;
+}
+/* profile */
+.profile-main-container{
+    
+    display: grid;
+    padding: 4em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    background-color: #e6e9ed;
+    align-items: center;
+
+}
+.profile-main-container .profile-img img{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.profile-info{
+    text-align: inherit;
+}
+.profile-contain-description{
+    /* display: flex;
+    justify-content: center;
+    text-align: initial; */
+}
+.profile-contain-description .description-title{
+    border-bottom: 2px solid #e6e9ed;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.description-projects{
+      display: flex;
+    justify-content: center;
+    text-align: initial;
+    margin-bottom: 30px;
+}
+
+.description-projects .art{
+    display: inline-block;
+    width: 25%;
+    border: 2px solid #e6e9ed ;
+    padding: 10px;
+    margin: 10px;
+
+    
 }
