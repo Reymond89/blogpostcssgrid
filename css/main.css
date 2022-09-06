@@ -122,7 +122,7 @@ nav .header__profile-right a{
 .blog-main-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: auto;
     background-color: #e0e3e9;
 
 }
@@ -273,10 +273,9 @@ footer p{
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: auto;
     background-color: #e6e9ed;
     align-items: center;
-    overflow: hidden;
 
 }
 .profile-main-container .profile-img img{
@@ -303,20 +302,11 @@ footer p{
 .description-projects .art{
     display: inline-block;
     max-width: 30%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     min-width: 270px;
     padding: 5px;
+    border: 2px solid #e6e9ed;
     border-radius: 5px;
     text-align: initial;
 }
-
-
-/* .description-projects .art{
-    display: inline-block;
-    width: 25%;
-    border: 2px solid #e6e9ed ;
-    padding: 10px;
-    margin: 10px;
-
-    
-} */

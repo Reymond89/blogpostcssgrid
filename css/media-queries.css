@@ -57,27 +57,3 @@ blog */
 
 
 }
-@media(max-width: 320px){
-    nav .header__logo-left img{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        width: 180px;
-    }
-
-    .header__logo-left{
-        display: flex;
-        align-items: center;
-    }
-
-
-    nav .header__profile-right{
-        height: 90px;
-        display: flex;
-        justify-content: flex-start;
-        align-content: center;
-        min-width: 363px;
-
-    }
-    
-}
