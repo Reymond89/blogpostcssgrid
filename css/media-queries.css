@@ -2,13 +2,14 @@
     .blog-main-container{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        min-width: 400px;
+        min-width: 500px;
+        max-width: 1300px;
     }
     .blog-post-container .post-container{
         max-width: 45%;
     }
 }
-@media (max-width: 649px){
+@media (max-width: 670px){
     .blog-post-container .post-container{
         max-width: 90%;
         
@@ -19,4 +20,25 @@
         max-width: 90%;
         
     }
+}
+
+/* profile */
+@media (max-width: 900px) {
+    .profile-main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        min-width: 400px;
+        
+    }
+    
+}
+/* 
+blog */
+
+@media (max-width: 600px) {
+    .contact-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
