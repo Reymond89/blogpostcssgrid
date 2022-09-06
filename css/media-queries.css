@@ -2,8 +2,8 @@
     .blog-main-container{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        min-width: 550px;
-        max-width: 1300px;
+        min-width: 320px;
+        /* max-width: 1300px; */
     }
     .blog-post-container .post-container{
         max-width: 45%;
@@ -27,7 +27,7 @@
     .profile-main-container{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        min-width: 550px;
+        min-width: 320px;
         
     }
     
@@ -37,8 +37,9 @@ blog */
 
 @media (max-width: 600px) {
     .contact-main-container{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
     
 }
