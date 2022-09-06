@@ -2,7 +2,7 @@
     .blog-main-container{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        min-width: 500px;
+        min-width: 550px;
         max-width: 1300px;
     }
     .blog-post-container .post-container{
@@ -27,7 +27,7 @@
     .profile-main-container{
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
-        min-width: 400px;
+        min-width: 550px;
         
     }
     
@@ -41,4 +41,19 @@ blog */
         flex-direction: column;
     }
     
+}
+/* index */
+@media (max-width: 526px) {
+
+    .home-main-title{
+        font-size: 1.4rem;
+        letter-spacing: 5px;
+        font-weight: 300;
+    }
+    header .header-container-icons{
+        display: grid;
+        justify-content: flex-start;
+    }
+
+
 }

@@ -39,7 +39,7 @@ header{
 }
 header .header-container-icons{
     width: 100%;
-    min-width: 540px;
+    min-width: 550px;
     height: 50px;
     display: grid;
     background-color: #47cfac;
@@ -64,7 +64,6 @@ nav{
 }
 nav .header__logo-left img{
     width: 300px;
-    margin-left: 50px;
 }
 
 nav .header__profile-right{
@@ -95,8 +94,10 @@ nav .header__profile-right a{
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 350px;
-    margin-top: 80px;
+    align-content: center;
+    text-align: center;
+    height: 170px;
+    margin-top: 180px;
 }
 .home-main-title{
     font-family: 'Roboto mono', monospace;
@@ -137,14 +138,14 @@ nav .header__profile-right a{
 .blog-main-container .blog__major-img{
     width: 90%;
     display: grid;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .blog-main-right{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: baseline;
-    margin: 20px;
+    padding: 30px;
 
 }
 .blog-main-right .blog-subtitle{
@@ -177,7 +178,7 @@ nav .header__profile-right a{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
-    min-width: 500px;
+    min-width: 550px;
 
 }
 
@@ -210,7 +211,7 @@ nav .header__profile-right a{
 
 footer{
     width: 100%;
-    min-width: 540px;
+    min-width: 550px;
     height: 80px;
     background-color: #22272d;
     border-top: 35px solid #47cfac;
@@ -225,14 +226,14 @@ footer p{
     display: grid;
     justify-content: center;
     align-content: center;
-    margin: 3em;
-    min-width: 400px;
+    margin: 2em;
+    min-width: 487px;
 }
 .blogpost-img-container img{
     width: 100%;
 }
 .blogpost__main-container{
-    margin: 3em;
+    padding: 20px;
     min-width: 500px;
 }
 .blogpost__main-container h3{
@@ -245,9 +246,7 @@ footer p{
 /*blog post */
 .contact-main-container{
    width: 100%;
-   min-width: 500px;
-   /* display: flex;
-   flex-direction: column; */
+   min-width: 550px;
    align-items: center;
    background-color: #e6e9ed;
    text-align: center;
@@ -255,8 +254,8 @@ footer p{
 }
 .contact-main-container div{
     display: inline-block;
-    width: 49.5%;
-    height: 100%;
+    width: 60%;
+    height: auto;
 }
 .contact-main-container div  a{
     border-bottom: 1px solid black;
@@ -273,39 +272,46 @@ footer p{
 .profile-main-container{
     
     display: grid;
-    padding: 4em;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
     background-color: #e6e9ed;
     align-items: center;
+    overflow: hidden;
 
 }
 .profile-main-container .profile-img img{
-    width: 80%;
-    display: flex;
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
     justify-content: space-around;
 }
 .profile-info{
-    text-align: inherit;
+    width: 90%;
+    padding: 20px;
 }
-.profile-contain-description{
-    /* display: flex;
-    justify-content: center;
-    text-align: initial; */
+.description-projects{
+    text-align: center;
+    min-width: 550px;
 }
+
+
 .profile-contain-description .description-title{
     border-bottom: 2px solid #e6e9ed;
     padding-bottom: 25px;
     text-align: center;
 }
-.description-projects{
-      display: flex;
-    justify-content: center;
+.description-projects .art{
+    display: inline-block;
+    max-width: 30%;
+    margin-bottom: 50px;
+    min-width: 270px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: initial;
-    margin-bottom: 30px;
 }
 
-.description-projects .art{
+
+/* .description-projects .art{
     display: inline-block;
     width: 25%;
     border: 2px solid #e6e9ed ;
@@ -313,4 +319,4 @@ footer p{
     margin: 10px;
 
     
-}
+} */
