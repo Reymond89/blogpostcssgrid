@@ -73,10 +73,11 @@ nav .header__logo-left img{
 }
 
 nav .header__profile-right{
-    height: 90px;
+    height: 86px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+   
    
     
   
@@ -85,7 +86,7 @@ nav .header__profile-right a{
     font-size: 1.3rem;
     color: black;
     border-bottom: 1px solid black;
-    margin-right: 12px;
+    margin-right: 16px;
 }
 .home-main__container{
     
@@ -301,8 +302,12 @@ footer p{
     padding: 10px;
 }
 .description-projects{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
     text-align: center;
-    min-width: 320px;
+    justify-content: center;
+
 }
 
 
@@ -313,12 +318,12 @@ footer p{
 }
 .description-projects .art{
     display: inline-block;
-    max-width: 30%;
+    max-width: 29%;
     margin-bottom: 30px;
     margin-top: 30px;
     min-width: 270px;
-    padding: 5px;
-    border: 2px solid #e6e9ed;
-    border-radius: 5px;
+    padding: 10px;
+    border: 3px solid #b4eadf;
+    border-radius: 10px;
     text-align: initial;
 }
