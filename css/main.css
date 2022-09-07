@@ -300,6 +300,7 @@ footer p{
 .profile-info{
     width: 90%;
     padding: 10px;
+    margin: 0 auto;
 }
 .description-projects{
     display: flex;
@@ -307,6 +308,7 @@ footer p{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    min-width: 320px;
 
 }
 
